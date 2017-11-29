@@ -17,9 +17,7 @@ include_once 'top.php';
 				      <div class="nav nav-justified">
                        
                        </div>
-				   
-
-<div class="clearfix" style="margin-bottom:5px;"> </div>
+				       <div class="clearfix" style="margin-bottom:5px;"> </div>
 
 
 
