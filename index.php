@@ -14,168 +14,136 @@ include_once 'top.php';
 	    <div class ="row">
 	        <div class="col-sm-12">	
 		         <div class="clearfix" style="margin-bottom:12px;"> </div>
-				      <div class="nav nav-justified">
-                       
+				 <div class="nav nav-justified"></div>
+				 <div class="clearfix" style="margin-bottom:5px;"> </div>
+                 <div class="panel panel-default" style="border-redius:0px !important; margin-bottom:0px; width:100%;">
+                     <div data-spy="scroll" data-target="#navbarExample" data-offset="0" class="scrollspy-example"  style="width:1135px;height:300px;border:1;">
+                          <div class="table-responsive" >
+                               <table class="table table-bordered" style="colors:blue;">
+                                      <thead>
+                                            <tr>
+                                                <th>Day</th>
+                                                <th>Semester</th>
+                                                <th>9-10 AM</th>
+                                                <th>10-11 AM</th>
+                                                <th>11-12 AM</th>
+                                                <th>2-3 PM</th>
+                                                <th>3-4 PM</th>
+                                                <th>4-5 PM</th>
+                                             </tr>
+                                      </thead>
+                                       <tbody>
+                                              <tr>
+                                                 <th scope="row">Sunday</th>
+                                                 <td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
+                                                 <td>  </br>CSE300</br> </br>CSE101,MAA</td>
+                                                 <td>CSE401</br>CSE310,MAA</br> </br>ENG105</td>
+                                                 <td>CSE401</br>CSE320,MNH</br> </br>MAT105</td>
+                                                 <td>CSE410</br>CSE313,MMI</br>STA204</br>CSE104,MJU</td>
+                                                 <td>CSE412,MNH</br>CSE313,MMI</br>MAT204</br>CSE104,MJU</td>
+                                                 <td>CSE400</br> </br>CSE200</br> </td>
+                                              </tr>
+                                               <tr>
+                                                  <th scope="row">monday</th>
+                                                  <td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
+                                                  <td>  </br>CSE302,MJU</br>CSE221</br>EEE105</td>
+                                                  <td>CSE403,MNH</br>CSE312,MMI</br>CSE221</br>CSE103,MJU</td>
+                                                  <td>CSE403,MNH</br>CSE300</br> </br> </td>
+                                                  <td>CSE402,MNH</br>CSE321,MNH</br>ACC204</br>EEE106</td>
+                                                  <td>CSE400,</br>CSE321,MNH</br>ECO204</br>EEE106</td>
+                                                  <td>CSE422,MAA</br>CSE321,MNH</br>CSE202,MMI</br>EEE106,</td>
+                                               </tr>
+                                                <tr>
+                                                   <th scope="row">tuesday</th>
+                                                   <td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
+                                                   <td>  </br>CSE320,MNH</br> </br>MAT105</td>
+                                                   <td>CSE411</br>CSE302,MJU</br>CSE203,MMI</br>CSE101,MAA</td>
+                                                   <td>CSE411</br>CSE310,MAA</br>CSE203,MMI</br>EEE105</td>
+                                                   <td>CSE412,MNH</br> </br>CSE202,MMI</br>ENG106</td>
+                                                   <td>CSE410</br>CSE303,MJU</br>STA204</br>ENG106,</td>
+                                                   <td>CSE400</br>CSE303,MJU</br>MAT204</br></td>
+                                                </tr>
+                                                <tr>
+                                                   <th scope="row">wednestday</th>
+                                                   <td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
+                                                   <td>  </br>CSE320,MNH</br> </br>MAT105</td>
+                                                   <td>CSE411</br>CSE302,MJU</br>CSE203,MMI</br>CSE101,MAA</td>
+                                                   <td>CSE411</br>CSE310,MAA</br>CSE203,MMI</br>EEE105</td>
+                                                   <td>CSE412,MNH</br> </br>CSE202,MMI</br>ENG106</td>
+                                                   <td>CSE410</br>CSE303,MJU</br>STA204</br>ENG106,</td>
+                                                   <td>CSE400</br>CSE303,MJU</br>MAT204</br></td>
+                                                </tr>
+                                                <tr>
+                                                   <th scope="row">thursday</th>
+                                                   <td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
+                                                   <td>  </br>CSE320,MNH</br> </br>MAT105</td>
+                                                   <td>CSE411</br>CSE302,MJU</br>CSE203,MMI</br>CSE101,MAA</td>
+                                                   <td>CSE411</br>CSE310,MAA</br>CSE203,MMI</br>EEE105</td>
+                                                   <td>CSE412,MNH</br> </br>CSE202,MMI</br>ENG106</td>
+                                                   <td>CSE410</br>CSE303,MJU</br>STA204</br>ENG106,</td>
+                                                   <td>CSE400</br>CSE303,MJU</br>MAT204</br></td>
+                                                </tr>
+                                          </tbody>
+                                  </table>
+                            </div>
                        </div>
-				       <div class="clearfix" style="margin-bottom:5px;"> </div>
-
-
-
-                <div class="panel panel-default" style="border-redius:0px !important; margin-bottom:0px; width:100%;">
-
-<div data-spy="scroll" data-target="#navbarExample" data-offset="0" class="scrollspy-example"  style="width:1135px;height:300px;border:1;">
-<div class="table-responsive" >
-
-<table class="table table-bordered" style="colors:blue;">
-<thead>
-<tr>
-<th>Day</th>
-<th>Semester</th>
-<th>9-10 AM</th>
-<th>10-11 AM</th>
-<th>11-12 AM</th>
-<th>2-3 PM</th>
-<th>3-4 PM</th>
-<th>4-5 PM</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row">Sunday</th>
-<td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
-<td>  </br>CSE300</br> </br>CSE101,MAA</td>
-<td>CSE401</br>CSE310,MAA</br> </br>ENG105</td>
-<td>CSE401</br>CSE320,MNH</br> </br>MAT105</td>
-<td>CSE410</br>CSE313,MMI</br>STA204</br>CSE104,MJU</td>
-<td>CSE412,MNH</br>CSE313,MMI</br>MAT204</br>CSE104,MJU</td>
-<td>CSE400</br> </br>CSE200</br> </td>
-</tr>
-<tr>
-<th scope="row">monday</th>
-<td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
-<td>  </br>CSE302,MJU</br>CSE221</br>EEE105</td>
-<td>CSE403,MNH</br>CSE312,MMI</br>CSE221</br>CSE103,MJU</td>
-<td>CSE403,MNH</br>CSE300</br> </br> </td>
-<td>CSE402,MNH</br>CSE321,MNH</br>ACC204</br>EEE106</td>
-<td>CSE400,</br>CSE321,MNH</br>ECO204</br>EEE106</td>
-<td>CSE422,MAA</br>CSE321,MNH</br>CSE202,MMI</br>EEE106,</td>
-</tr>
-<tr>
-<th scope="row">tuesday</th>
-<td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
-<td>  </br>CSE320,MNH</br> </br>MAT105</td>
-<td>CSE411</br>CSE302,MJU</br>CSE203,MMI</br>CSE101,MAA</td>
-<td>CSE411</br>CSE310,MAA</br>CSE203,MMI</br>EEE105</td>
-<td>CSE412,MNH</br> </br>CSE202,MMI</br>ENG106</td>
-<td>CSE410</br>CSE303,MJU</br>STA204</br>ENG106,</td>
-<td>CSE400</br>CSE303,MJU</br>MAT204</br></td>
-</tr>
-<tr>
-<th scope="row">wednestday</th>
-<td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
-<td>  </br>CSE320,MNH</br> </br>MAT105</td>
-<td>CSE411</br>CSE302,MJU</br>CSE203,MMI</br>CSE101,MAA</td>
-<td>CSE411</br>CSE310,MAA</br>CSE203,MMI</br>EEE105</td>
-<td>CSE412,MNH</br> </br>CSE202,MMI</br>ENG106</td>
-<td>CSE410</br>CSE303,MJU</br>STA204</br>ENG106,</td>
-<td>CSE400</br>CSE303,MJU</br>MAT204</br></td>
-</tr>
-<tr>
-<th scope="row">thursday</th>
-<td>4-1(R:407)</br>3-1(R:407)</br>2-1(R:408)</br>1-1(R:408)</td>
-<td>  </br>CSE320,MNH</br> </br>MAT105</td>
-<td>CSE411</br>CSE302,MJU</br>CSE203,MMI</br>CSE101,MAA</td>
-<td>CSE411</br>CSE310,MAA</br>CSE203,MMI</br>EEE105</td>
-<td>CSE412,MNH</br> </br>CSE202,MMI</br>ENG106</td>
-<td>CSE410</br>CSE303,MJU</br>STA204</br>ENG106,</td>
-<td>CSE400</br>CSE303,MJU</br>MAT204</br></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
+                  </div>
+             </div>
+       </div>
 <!--/div-->
 
 
-<div class="clearfix" style="margin-bottom:35px;"> </div>
-<div class ="row">
-<div class="col-sm-5"  >
-<div class="panel panel-default" style="border-redius:0px !important;color:#B22222; margin-bottom:0px; width:100%;">
-<div class="panel-heading" style= "color:#D00000;">
-<i class="fa fa-bell fa-fw" style="color:#B22222;"></i>
-<td><h4>Notice Board</h4></td>
-</div>
- <div data-spy="scroll" data-target="#navbarExample" data-offset="0" class="scrollspy-example"" style="height:300px;">
-<div class="panel-body">
-<div class="list-group">
-<a class="list-group-item" href="jim/ICT Tranning Notice0001.pdf" download>
-<i class="fa fa-comment fa-fw"></i>
-<h4>২০১২-১৩ শিক্ষা বর্ষের শিক্ষার্থীদের আইসিটি প্রশিক্ষণ সংক্রান্ত বিজ্ঞপ্তি</h4>
-
-<div class="clearfix" style="margin-bottom:5px;"> </div>
-<p class='list-group-item-text'>30/01/2017 </p> 
- 
-   
-</a>
-<a class="list-group-item" href="jim/Project Date0001(1).pdf" download>
-<i class="fa fa-comment fa-fw"></i>
-<h4>সিএসই সকল বর্ষের ফাইনাল প্রজেক্ট/ থিসিস এর তারিখ দেয়া হলো।.....সিএসই অফিস।</h4>
-
-<div class="clearfix" style="margin-bottom:5px;"> </div>
-<p class='list-group-item-text'>30/01/2017 </p> 
- 
-   
-</a>
-
-<a class="list-group-item" href="jim/Thesis Template.doc" download>
-<i class="fa fa-comment fa-fw"></i>
-<h4>জামাল স্যারের অধীনে থিসিস করছে তাদের জন্য থিসিস রিপোর্ট ফরমেট</h4>
-
-<div class="clearfix" style="margin-bottom:5px;"> </div>
-<p class='list-group-item-text'>30/01/2017 </p> 
- 
-   
-</a>
-<a class="list-group-item" href="jim/14 December Notice0001.pdf" download>
-<i class="fa fa-comment fa-fw"></i>
-<h4>শহীদ বুদ্ধিজীবী দিবস এবং মহান বিজয় দিবস-২০১৬ উদযাপন সংক্রান্ত বিজ্ঞপ্তি।</h4>
-
-<div class="clearfix" style="margin-bottom:5px;"> </div>
-<p class='list-group-item-text'>30/01/2017 </p> 
- 
-   
-
-</a>
-<a class="list-group-item" href="jim/14 December Notice0001.pdf" download>
-<i class="fa fa-comment fa-fw"></i>
-<h4>Ntice2</h4>
-
-<div class="clearfix" style="margin-bottom:5px;"> </div>
-<p class='list-group-item-text'>30/01/2017 </p> 
- 
-   
-</a>
-<a class="list-group-item" href="jim/14 December Notice0001.pdf" download>
-<i class="fa fa-comment fa-fw"></i>
-<h4>Ntice3</h4>
-
-<div class="clearfix" style="margin-bottom:5px;"> </div>
-<p class='list-group-item-text'>30/01/2017 </p> 
- 
-   
-</a>
-
-
-
-
-</div>
-</div>
-</div>
-
-</div>
+       <div class="clearfix" style="margin-bottom:35px;"> </div>
+            <div class ="row">
+                 <div class="col-sm-5"  >
+                      <div class="panel panel-default" style="border-redius:0px !important;color:#B22222; margin-bottom:0px; width:100%;">
+                           <div class="panel-heading" style= "color:#D00000;">
+                                <i class="fa fa-bell fa-fw" style="color:#B22222;"></i>
+                                <td><h4>Notice Board</h4></td>
+                           </div>
+                           <div data-spy="scroll" data-target="#navbarExample" data-offset="0" class="scrollspy-example"" style="height:300px;">
+                                 <!--div class="panel-body"-->
+                                      <div class="list-group">
+                                           <a class="list-group-item" href="jim/ICT Tranning Notice0001.pdf" download>
+                                               <i class="fa fa-comment fa-fw"></i>
+                                               <h4>২০১২-১৩ শিক্ষা বর্ষের শিক্ষার্থীদের আইসিটি প্রশিক্ষণ সংক্রান্ত বিজ্ঞপ্তি</h4>
+                                               <div class="clearfix" style="margin-bottom:5px;"> </div>
+                                               <p class='list-group-item-text'>30/01/2017 </p> 
+                                            </a>
+                                            <a class="list-group-item" href="jim/Project Date0001(1).pdf" download>
+                                                <i class="fa fa-comment fa-fw"></i>
+                                                <h4>সিএসই সকল বর্ষের ফাইনাল প্রজেক্ট/ থিসিস এর তারিখ দেয়া হলো।.....সিএসই অফিস।</h4>
+                                                <div class="clearfix" style="margin-bottom:5px;"> </div>
+                                                <p class='list-group-item-text'>30/01/2017 </p> 
+                                            </a>
+                                            <a class="list-group-item" href="jim/Thesis Template.doc" download>
+                                                <i class="fa fa-comment fa-fw"></i>
+                                                <h4>জামাল স্যারের অধীনে থিসিস করছে তাদের জন্য থিসিস রিপোর্ট ফরমেট</h4>
+                                                <div class="clearfix" style="margin-bottom:5px;"> </div>
+                                                <p class='list-group-item-text'>30/01/2017 </p> 
+                                            </a>
+                                            <a class="list-group-item" href="jim/14 December Notice0001.pdf" download>
+                                                <i class="fa fa-comment fa-fw"></i>
+                                                <h4>শহীদ বুদ্ধিজীবী দিবস এবং মহান বিজয় দিবস-২০১৬ উদযাপন সংক্রান্ত বিজ্ঞপ্তি।</h4>
+                                                <div class="clearfix" style="margin-bottom:5px;"> </div>
+                                                <p class='list-group-item-text'>30/01/2017 </p> 
+                                            </a>
+                                            <a class="list-group-item" href="jim/14 December Notice0001.pdf" download>
+                                                 <i class="fa fa-comment fa-fw"></i>
+                                                 <h4>Ntice2</h4>
+                                                 <div class="clearfix" style="margin-bottom:5px;"> </div>
+                                                 <p class='list-group-item-text'>30/01/2017 </p> 
+                                            </a>
+                                            <a class="list-group-item" href="jim/14 December Notice0001.pdf" download>
+                                                 <i class="fa fa-comment fa-fw"></i>
+                                                 <h4>Ntice3</h4>
+                                                 <div class="clearfix" style="margin-bottom:5px;"> </div>
+                                                 <p class='list-group-item-text'>30/01/2017 </p> 
+                                            </a>
+                                      </div>  
+                            </div>
+                       </div>
+                 </div>
 
  <div class="page-header">
  <div class="panel-heading">
