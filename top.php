@@ -48,7 +48,8 @@ img {
 	
 <body>
      <div class="container theme-showcase" role="main">
-	  <div class ="row">
+	  <div class ="row" style="border-width:20px;">
+	  <div class="row">
 	    <div class="col-sm-12"  >
 	      <div class="page-header" style="color:#E80000;">
                     <h1>Department Enlightenment and Resource Management System</h1>
@@ -162,11 +163,9 @@ img {
 	    </div>
 	 </div>
   </div>
+ </div>
 				                       <div class="clearfix" style="margin-bottom:px;"> </div>
-				   
-				   
-				   
-				   
+				   			   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	
                <script src="jQuery.min.js"></script>
