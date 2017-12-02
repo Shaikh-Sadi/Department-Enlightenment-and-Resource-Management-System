@@ -18,10 +18,8 @@ include_once 'conct.php';
 <form action="duplicate_file_upload.php" method="post" enctype="multipart/form-data">
     <fieldset>
 	<legend> file upload </legend>
-    <!--Select file to upload:-->
-    <!--input type="file" name="fileToUpload" id="fileToUpload"-->
 	<input type="file" name="fileToUpload" >
-    <button type="submit" value="pressed" name="button">	Upload </button>
+    <button type="submit" value="pressed" name="button">Upload </button>
 	 </fieldset>
 </form>
 
