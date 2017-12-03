@@ -1,0 +1,2 @@
+# Department-Enlightenment-and-Resource-Management-System
+at First you donload all file by using "clone or download". after  you create a database, name as "bootstrap" and import database folder contain those .sql file, then you go C:\xampp\htdocs folder and past all downloaded file under Department-Enlightenment-and-Resource-management-System folder. now open your browser and past this link http://localhost/Department-Enlightenment-and-Resource-Management-System then you can see My project 
